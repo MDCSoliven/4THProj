@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet"
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+ 
+    <link rel="preconnect"
+          href=
+"https://fonts.gstatic.com">
+    <link href=
+"https://fonts.googleapis.com/css2?family=Amiri&family=Lobster&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <!-- linking style.css file-->
+    <link rel="stylesheet" href="style.css">
+     <style>
+      body {
+        background-color: #808080;
+      }
+    </style>
+</head>
+<body>
+    <!-- Unit Converter -->
+    <h1 class="heading text-center display-2">
+        Unit Converter
+    </h1>
+    <hr>
+    <div class="container">
+        <div class="main">
+            <div class="form-group">
+                <label for="oamount">
+                </label>
+<title>Unit Converter</title>
+<body>
+<h2>Unit Converter</h2>
+<p>
+<script>
+     function Cm() {  
+        //get user's input
+      var input = document.getElementById("value").value;
+
+      //result of the calculation that is then put into the result p element with the id of result.
+      var result = document.getElementById("result");
+      result.innerHTML = input / 10;
+    } 
+     function M() {  
+        //get user's input
+      var input = document.getElementById("value").value;
+
+      //result of the calculation that is then put into the result p element with the id of result.
+      var result = document.getElementById("result");
+      result.innerHTML = input / 1000;
+    } 
+      function Km() {  
+        //get user's input
+      var input = document.getElementById("value").value;
+
+      //result of the calculation that is then put into the result p element with the id of result.
+      var result = document.getElementById("result");
+      result.innerHTML = input / 1000000;
+    }
+</script>    
+Milimeters:<input type="number" id="value" name="value" value="0" /> 
+
+<p id="result">Result</p>
+
+<button type="button" id="MmtoCm" onclick="Cm()">Convert to Centimeters</button>
+<button type="button" id="MmtoM" onclick="M()">Convert to Meters</button>
+<button type="button"id="MmtoKm" onclick="Km()">Convert to Kilometers</button>
+</body>
+</html>
